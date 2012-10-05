@@ -1,23 +1,28 @@
 /**
- * @author Anderson Fortes e Francis Almeida
+ * @author Anderson fortes e Francis Diego Almeida
  */
 /**
  *  
  *  Copyright (c) 2012 Anderson Fortes e Francis Almeida
  *  
- *  Este arquivo é parte do programa Baralho
+ *  Este arquivo e parte do programa Baralho
  *
- *  Baralho é um software livre; você pode redistribui-lo e/ou modifica-lo dentro dos termos da Licença Pública Geral Menor GNU como 
- *  publicada pela Fundação do Software Livre (FSF); na versão 2 da licença, ou (na sua opnião) qualquer versão.
+ *  Baralho e um software livre; voce pode redistribui-lo e/ou modifica-lo dentro dos termos da Licenca Publica Geral Menor GNU como 
+ *  publicada pela Fundacao do Software Livre (FSF); na versao 2 da licenca, ou (na sua opniao) qualquer versao.
  *  
- *  Este programa é distribuido na esperança que possa ser  util, mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
- *  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral Menor GNU para maiores detalhes.
+ *  Este programa e distribuido na esperanca que possa ser  util, mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUACAO a qualquer
+ *  MERCADO ou APLICACAO EM PARTICULAR. Veja a Licenca Publica Geral Menor GNU para maiores detalhes.
  *  
- *  Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto com este programa, se não, escreva para a Fundação do Software
+ *  Voce deve ter recebido uma copia da Licenca Publica Geral Menor GNU junto com este programa, se nao, escreva para a Fundacao do Software
  *  Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * 
  * 
  */
+package Baralho;
+
+import java.util.Scanner;
+import Cards.Baralho;
+import Cards.Carta; 
 
 
 /**
@@ -32,7 +37,7 @@ public class Jogatina {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-	    Carta carta;
+	Carta carta;
         Baralho baralho = new Baralho();
         System.out.println("baralho: ");
         baralho.exibirPilha();
